@@ -11,5 +11,6 @@ python ../launchUI.py
 read -p "Do you want to delete the contents of the $BUILD_DIR directory? (y/n): " choice
 
 if [ "$choice" = "y" ]; then
-     rm -rf "$BUILD_DIR"/*
+    cd ../
+    rm -rf "$BUILD_DIR"/*
 fi
