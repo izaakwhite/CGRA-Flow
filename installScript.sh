@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# WOULD NOT RECOMMEHD TO RUN THIS SCRIPT BUT IT DOES SHOWCASE WHAT YOU NEED TO INSTALL, USE IT AT YOUR OWN RISK
 # Script must be ran with sudo
 if [ "$EUID" -ne 0 ]; then
   echo "This script must be run as root. Please use sudo or run as root."
